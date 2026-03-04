@@ -1,17 +1,17 @@
 [project]
-name = "pptx-to-images"
-version = "0.1.0"
-description = "Convert PowerPoint slides to images using aspose.slides"
+name = "ppt-to-grid"
+version = "0.2.0"
+description = "Convert PowerPoint slides to 3x3 grid images using CloudConvert"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "aspose-slides>=24.0",
     "cloudconvert>=2.1.0",
     "pillow>=11.3.0",
+    "python-dotenv>=1.0.0",
 ]
 
 [project.scripts]
-pptx2img = "pptx_to_images:main"
+ppt2grid = "ppt_to_grid:main"
 
 [dependency-groups]
 dev = []
