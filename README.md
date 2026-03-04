@@ -49,7 +49,23 @@ set CLOUDCONVERT_API_KEY=your_api_key
 
 ## 使用方法
 
-### 基本用法
+### 方式 1: Web 应用 (推荐)
+
+启动 Streamlit 网页应用，通过浏览器上传和下载：
+
+```bash
+uv run streamlit run app.py
+```
+
+然后打开浏览器访问 `http://localhost:8501`
+
+功能特点：
+- 📤 拖拽上传 PPT 文件
+- 🔄 实时显示转换进度
+- 🖼️ 预览生成的九宫格
+- 📦 一键下载 ZIP 压缩包
+
+### 方式 2: 命令行
 
 ```bash
 # 将 presentation.pptx 转换为九宫格
