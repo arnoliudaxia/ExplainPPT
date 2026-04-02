@@ -1,4 +1,6 @@
-# ExplainPPT
+# ~~ExplainPPT~~
+
+食答辩啦！现在主流LLM平台对于office文件的处理已经非常完善了，已经用不着自己做了。
 
 将 PowerPoint 文件的幻灯片转换为 3x3 九宫格拼图。
 
